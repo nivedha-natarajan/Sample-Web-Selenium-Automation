@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sales Bill" thread-count="1" parallel="false">
+
+    <test name="TC_SalesBill">
+        <classes>
+            <class name="com.projectName.testCases.salesBill.SB_01_ValidateSalesBill"/>
+            <class name="com.projectName.testCases.salesBill.SB_02_VerifySBBarcodeDetails"/>
+            <class name="com.projectName.testCases.salesBill.SB_03_ReturnOneMedicine"/>
+            <class name="com.projectName.testCases.salesBill.SB_04_OutstandingCredit"/>
+            <class name="com.projectName.testCases.salesBill.SB_05_ReturnCredit"/>
+            <class name="com.projectName.testCases.salesBill.SB_06_VerifyEditInvoice"/>
+        </classes>
+    </test>
+
+</suite>

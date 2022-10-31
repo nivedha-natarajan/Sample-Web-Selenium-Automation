@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Purchase Bill" thread-count="1" parallel="false">
+    <test name="TC_PurchaseBill">
+        <classes>
+            <class name="com.projectName.testCases.purchaseBill.PB_01_ValidatePurchaseBill"/>
+            <class name="com.projectName.testCases.purchaseBill.PB_02_VerifyPurchaseBillCache"/>
+            <class name="com.projectName.testCases.purchaseBill.PB_03_EditPurchaseBill"/>
+            <class name="com.projectName.testCases.purchaseBill.PB_04_VerifyPBBarcodeDetails"/>
+            <class name="com.projectName.testCases.purchaseBill.PB_05_VerifyPBDistributorFooterDetails"/>
+            <class name="com.projectName.testCases.purchaseBill.PB_06_VerifyPurchaseBillTaxConfigCheckBoxes"/>
+            <class name="com.projectName.testCases.purchaseBill.PB_07_CreateInvoicefromChallan"/>
+            <class name="com.projectName.testCases.purchaseBill.PB_08_CreditNoteFullPayment"/>
+            <class name="com.projectName.testCases.purchaseBill.PB_09_CreditNotePartialPayment"/>
+            <class name="com.projectName.testCases.purchaseBill.PB_10_CreditNoteMultipleBills"/>
+            <class name="com.projectName.testCases.purchaseBill.PB_11_EditMedicineScreen"/>
+            <class name="com.projectName.testCases.purchaseBill.PB_12_CreatePurchaseBillWithUploadFile"/>
+            <class name="com.projectName.testCases.purchaseBill.PB_13_VerifyBatchStock"/>
+        </classes>
+    </test>
+
+</suite>
